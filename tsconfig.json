@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2021", "dom"],
+    "target": "ES2015",
+    "declaration": true,
+    "module": "ES2020",
+    "outDir": "./",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"],
+  "buildOptions": {}
+}
