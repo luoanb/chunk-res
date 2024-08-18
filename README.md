@@ -25,7 +25,9 @@ const task = wx.request({
   },
 });
 task.onChunkReceived((res) => {
-  const resTexts: string[] | undefined = chunkRes.onChunkReceivedReturn(res);
+  const resTexts: string[] | undefined = chunkRes.onChunkReceivedReturn(
+    res.data
+  );
   // dosomething
 });
 ```
